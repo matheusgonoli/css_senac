@@ -1,0 +1,79 @@
+body {
+    background-color: #242A33;
+    font-family: arial, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    }
+    .box {
+        width: 100%;
+        max-width: 800px;
+        padding: 20px;
+        border: 2px solid #000000;
+        margin: 20px auto;
+        background-color: #ffffff;
+        color: #000000;
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(red, green, blue, alpha);
+        position: relative;
+        transform: translate(0%, 0%);
+    }
+
+    .sobre_mim {
+        position: absolute;
+        top: 0;
+        left: 0px;
+        padding: 10px;
+    }
+
+    .projetos {
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        padding: 10px;
+    }
+
+    .contatos {
+        position: absolute;
+        top: 0;
+        right: 0px;
+        padding: 10px;
+    }
+
+    .img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+    }
+
+    footer {
+        background-color: #525252f6;
+        color: #000000;
+        padding: 20px 0;
+        text-align: center;
+        width: 100%;
+        position: absolute;
+        left: 0;
+    }
+
+    footer a {
+        color: #ffffff;
+        text-decoration: none;
+        margin: 0 10px;
+    }
+
+    footer a:hover {
+        text-decoration: underline;
+    }
+
+    a:link {
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: none;
+        color: #000000;
+    }
