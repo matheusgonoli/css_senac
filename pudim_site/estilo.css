@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #d0d0d0;
+    margin: 0px;
+    padding: 0px;
+}
+
+.container{
+    width: 650px;
+    background-color: #ffffffcc;
+    position: relative;
+    padding: 40px 70px;
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -395px;
+}
+
+.image {
+    display: flex;
+    justify-content: top;
+    height: 80vh;
+}
+
+.container .email a {
+    margin-top: 5px;
+}
+
+.container .email a {
+    font-family: verdana, arial;
+    font-size: 11px;
+    padding-top: 10px;
+}
